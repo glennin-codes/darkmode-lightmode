@@ -1,0 +1,99 @@
+.main--wrapper{
+   align-items: center;
+   justify-content: center;
+   display: flex;
+    
+}
+.main--contents{
+    border: 1px solid magenta;
+    width: 400px;
+    flex-direction: column;
+    display: flex;
+    margin-top: 50px;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-family: 'Ubuntu',sans-serif;
+    box-shadow: 10px 10px 10px 5px;
+}
+.form{
+    margin:40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Ubuntu',sans-serif;
+    color: blueviolet;
+    
+}
+.form--title{
+    color:aqua;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    pointer-events: none;
+}
+.input--el{
+    height: 60px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Ubuntu',sans-serif;
+    color: blue;
+    font-size: 1.5rem;
+    text-indent: 5px;
+    
+
+}
+.comments--el{
+    max-width: 370px;
+    max-height: 100px;
+    font-family: "poppins",sans-serif;
+    color: blue;
+    font-size: 1.2rem;
+    text-indent: 5px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.isfriendly,.employment{
+    align-items: center;
+    display: flex;
+    font-size: 1.2rem;
+}
+.box,.button--el{
+    margin-right: 10px;
+}
+.employment--status{
+    max-height: 150px;
+    margin-top: 20px;
+}
+.employment--status legend,.country,.comments{
+    font-size: 1.3rem;
+    /* color:antiquewhite; */
+}
+.country{
+    margin-top: 20px;
+}
+#select--country{
+    
+    margin-left: 10px;
+    color: blue;
+    font-weight: 600;
+    border: none;
+    background-color: gray;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    text-indent: 5px;
+}
+.submit--el{
+    margin-top: 20px;
+    cursor: pointer;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    font-size:2rem;
+    font-family: montseratti;
+}
+.submit--el:hover{
+    background-color: white;
+    border: 2px solid blue;
+}
