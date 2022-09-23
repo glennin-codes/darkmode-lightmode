@@ -1,0 +1,96 @@
+.app--header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* color: #FF5A5F;  */
+    color:black;
+    padding: 20px 40px;
+    /* background:linear-gradient(90deg,#672280 1.18%,#A626D3 100%); */
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    
+    box-shadow:0 0px 10px 10px gray;
+    font-weight: 700;
+    font-size: 0.75rem;
+    
+ }
+ .dark{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FF5A5F; 
+    padding: 20px 40px;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    box-shadow:0 0px 10px 10px black;
+    font-weight: 500;
+    font-size: 0.75rem;
+    background-color: #282c34;
+
+ }
+ .toggle--light,.toggle--dark{
+    cursor: pointer;
+ }
+ 
+ .toggle--light:hover,.toggle--dark:hover{
+    color:crimson;
+ }
+ .app--logo{
+    height:100%;
+    padding-left: 20px;
+    
+
+ }
+ .app--title a{
+   color:blue;
+   
+ }
+.app--name{
+    margin-left: 10px;
+    margin-right: auto;
+    font-weight: 500;
+}
+.app--title{
+    margin-right: auto;
+}
+.app--title a:hover{
+    text-decoration: underline white;
+    color: #FF5A5F;
+}
+.app--title a:after{
+   color: red;
+}
+
+.app--name>.app--title{
+    margin-right: auto;
+    
+ }
+ .project--info{
+    margin-right: 30px;
+ }
+ @media (max-width:750px){
+   .app--header{
+      width: 100vw;
+      flex-direction:row;
+      flex-wrap: wrap;
+      height: 100px;
+      overflow: hidden;
+   }
+   .app--logo{
+      padding-left: 5px;
+      height: 40px;
+   }
+   .app--header>.app--title{
+      margin-right: 40px;
+   }
+   .project--info{
+      margin-left: 0;
+   }
+   .app--name{
+      margin-right: 90px;
+   }
+ }
